@@ -1,4 +1,4 @@
-import { Player } from '../src/player.js';
+import { Player } from '../../src/core/player.js';
 
 describe('Player', () => {
   it('initialises with its own 10 x10 gameboard', () => {

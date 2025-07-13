@@ -1,5 +1,5 @@
-import './style.css';
-import { GameController } from './gameController.js';
+import '../assets/style.css';
+import { GameController } from '../core/gameController.js';
 
 
 const root = document.body;

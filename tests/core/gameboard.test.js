@@ -1,4 +1,4 @@
-import { Gameboard } from '../src/gameboard.js';
+import { Gameboard } from '../../src/core/gameboard.js';
 
 describe('Gameboard', () => {
   let board;

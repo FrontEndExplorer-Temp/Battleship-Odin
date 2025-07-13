@@ -1,4 +1,4 @@
-import { Ship } from "../src/ship.js";
+import { Ship } from '../../src/core/ship.js';
 
 describe('Ship', () => {
     let ship;

@@ -4,7 +4,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "webpack serve --open"
   },
   "keywords": [],
   "author": "",
@@ -38,5 +39,11 @@
   "bugs": {
     "url": "https://github.com/FrontEndExplorer-Temp/Battleship-Odin/issues"
   },
-  "homepage": "https://github.com/FrontEndExplorer-Temp/Battleship-Odin#readme"
+  "homepage": "https://github.com/FrontEndExplorer-Temp/Battleship-Odin#readme",
+  "jest": {
+    "testMatch": [
+      "<rootDir>/tests/core/**/*.test.js",
+      "<rootDir>/tests/ui/**/*.test.js"
+    ]
+  }
 }

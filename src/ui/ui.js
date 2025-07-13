@@ -1,4 +1,4 @@
-import { GameController } from './gameController.js';
+import { GameController } from '../core/gameController.js';
 
 const controller = new GameController();
 const enemyGrid  = document.querySelector('#enemy-grid');

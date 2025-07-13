@@ -9,7 +9,7 @@ const __dirname = dirname(__filename);
 
 export default {
   mode: "development",
-  entry: "./src/index.js",
+  entry: "./src/ui/index.js",
   output: {
     filename: "main.js",
     path: path.resolve(__dirname, "dist"),
@@ -17,11 +17,11 @@ export default {
   },
   devtool: "eval-source-map",
   devServer: {
-    watchFiles: ["./src/template.html"],
+    watchFiles: ["./src/assets/template.html"],
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: "./src/template.html",
+      template: "./src/assets/template.html",
     }),
   ],
   module: {
